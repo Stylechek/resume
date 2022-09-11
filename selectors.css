@@ -27,6 +27,7 @@ body {
 }
 a {
     border-bottom: 1px;
+    transition: all .2s;
 }
 #Specialnost , #kfc {
     color: black;
@@ -151,7 +152,24 @@ a {
         text-align: center;
     }
 }
-
+#Specialnost:hover {
+    font-size: 1.1rem;
+}
+#kfc:hover {
+    font-size: 1.18rem;
+}
+ #vkPng {
+    transition: 1s;
+}
+ #vkPng:hover{
+    transform: scale(1.2);
+}
+#instPng {
+    transition: 1s;
+}
+#instPng:hover{
+    transform: scale(1.2);
+}
 #sendmassage {
     display: inline-block;
     color: rgba(0, 0, 0, 0.55);
